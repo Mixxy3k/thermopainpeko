@@ -1,0 +1,22 @@
+[package]
+authors = ["Mixxy3k"]
+edition = "2021"
+readme = "README.md"
+name = "stm32"
+version = "0.1.0"
+
+[dependencies]
+dht11 = {version="0.3.1"}
+embedded-hal = {version="0.2.7"}
+stm32f3xx-hal = { version = "0.9.0" }
+cortex-m-semihosting = "0.5.0"
+cortex-m-rt = { version = "0.7.1", features = ["device"] }
+cortex-m = "0.7.4"
+panic-semihosting = "0.6.0"
+heapless = "0.7.12"
+nb = "1.0.0"
+
+usart_1 = {path="usart_1"}
+init = {path="init"}
+leds = {path="leds"}
+lcd = {path="lcd"}

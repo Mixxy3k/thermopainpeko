@@ -1,0 +1,12 @@
+[package]
+name = "lcd"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+cortex-m = "0.7.4"
+stm32f3xx-hal = { version = "0.9.0" }
+embedded-hal = "0.2.7"
+write_to = {path="../write_to"}
