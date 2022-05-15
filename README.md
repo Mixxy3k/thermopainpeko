@@ -1,2 +1,2 @@
-# STM32F303VC
-Just a base project to skip seting up everything, fell free to use.
+# Thrmometer v2.0 - STM32F303VC 
+An second version of thermometer, now with Polish comments and USART communication!
